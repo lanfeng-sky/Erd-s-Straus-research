@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "payload_hashes_verified": 12,
+  "files": 13,
+  "standalone_generator_check_exit": 0,
+  "standalone_direct_scanner_exit": 0,
+  "write_permissions_removed": true,
+  "main_internal_links_checked": true,
+  "handoff_manifest_sha256": "36d41c1137f84aa6354bced0642d0bedac883f838fae0101d74dcd53efff04a0"
+}

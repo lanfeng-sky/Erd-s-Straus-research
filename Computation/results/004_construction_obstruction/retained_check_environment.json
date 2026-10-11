@@ -1,0 +1,13 @@
+{
+  "workspace_environment": "android (mounted directly)",
+  "command": [
+    "/usr/bin/python3",
+    "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/experiments/results/004_construction_obstruction/check_retained.py"
+  ],
+  "exit_code": 0,
+  "elapsed_ns": 500996385,
+  "source_sha256": "a8733e80a9d28001ef70c5c808e63b36e8151b651a963c67f093ed9135396dd6",
+  "stdout_sha256": "95124e2ee479fef77b900f86b9788c7d89722eac947ae55f98aa6bad130514c2",
+  "stderr": "",
+  "domain": "Retained certificates only, six named n; 193 original 24-residue proof; no new enumeration ranges"
+}

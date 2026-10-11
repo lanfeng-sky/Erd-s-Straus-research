@@ -1,0 +1,20 @@
+{
+  "date_utc": "2026-10-04T04:25:53Z",
+  "workspace_environment": "android (mounted directly in Linux terminal)",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "machine": "aarch64",
+  "command": [
+    "/usr/bin/python3",
+    "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/flagship/reviews/004_audit_probe.py"
+  ],
+  "source_sha256": "c48fc133a05ebdccd4554880ed91dea8cd7d6aa9133ed8469152c88a0f0f6fca",
+  "stdout_sha256": "a5cc92e9b407ecce8636c7b8301a775a772944d7e688e821a5a44cac27bf19c7",
+  "exit_code": 0,
+  "elapsed_ns": 51243731388,
+  "stderr": "",
+  "same_six_records_as_R004": true,
+  "same_H003_hashes": true,
+  "arithmetic": "exact integers; assertions enabled",
+  "limits": "Only the authorized R-004 script was rerun; no added inputs or parameter ranges."
+}

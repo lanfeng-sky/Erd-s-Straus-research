@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "domain_m": [
+    3,
+    5,
+    7,
+    9
+  ],
+  "domain": "nondecreasing sequences; nonzero and no involution; length m-2",
+  "groups": [
+    {
+      "m": 3,
+      "length": 1,
+      "visited": 4,
+      "eligible": 0,
+      "counterexamples": 0,
+      "generator_count_histogram": {}
+    },
+    {
+      "m": 5,
+      "length": 3,
+      "visited": 120,
+      "eligible": 12,
+      "counterexamples": 0,
+      "generator_count_histogram": {
+        "2": 12
+      }
+    },
+    {
+      "m": 7,
+      "length": 5,
+      "visited": 4368,
+      "eligible": 30,
+      "counterexamples": 0,
+      "generator_count_histogram": {
+        "2": 30
+      }
+    },
+    {
+      "m": 9,
+      "length": 7,
+      "visited": 170544,
+      "eligible": 42,
+      "counterexamples": 0,
+      "generator_count_histogram": {
+        "2": 42
+      }
+    }
+  ],
+  "visited": 175036,
+  "eligible": 84,
+  "counterexamples": 0,
+  "critical_triple_checks": 1644,
+  "eligible_payload_sha256": "f99e3adff460b62a712d83aca45106c1e4f829e662fd42a092b7f435112754d0",
+  "source_sha256": "188b2af154904ebb513c7b01fbaf650a7d0f407c8d7e156f67794f1f99308c76",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "limitations": "Four groups only; not a universal theorem or an Erdos-Straus existence search."
+}

@@ -1,0 +1,59 @@
+{
+  "result": "PASS",
+  "sha256_manifest": "all entries verified",
+  "pairs": 2991,
+  "counts": {
+    "common_character_blocker": 1485,
+    "common_blocker_old_quadratic": 1022,
+    "binary_bounds_checked": 5982,
+    "prime_defect_joint_domain": 941,
+    "common_blocker_old_subgroup_other": 463,
+    "joint_failures_with_deficiency": 253,
+    "joint_saturation_pass": 106,
+    "joint_pass_beyond_old_sufficient": 33,
+    "critical_equalities": 14
+  },
+  "joint_sufficient_examples_beyond_old": [
+    [
+      3049,
+      765,
+      11,
+      true,
+      true
+    ],
+    [
+      3889,
+      975,
+      11,
+      true,
+      true
+    ],
+    [
+      5209,
+      1305,
+      11,
+      true,
+      true
+    ]
+  ],
+  "least_nonresidue_118801": {
+    "q": 13,
+    "first_multiple_offset": 4,
+    "all_t_0_through_q_minus_1_miss": true
+  },
+  "inverse_candidate": {
+    "status": "verified computationally",
+    "visited": 175036,
+    "eligible": 84,
+    "domain_m": [
+      3,
+      5,
+      7,
+      9
+    ],
+    "length": "m-2",
+    "even_total": true
+  },
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "source_sha256": "c2ba91d276a206bba088347d57373717d81707f189fb3453c4a5d18af3f0ebcb"
+}

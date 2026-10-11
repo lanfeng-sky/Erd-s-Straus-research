@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "workspace_environment": "android (mounted directly)",
+  "H004_payloads": 10,
+  "H004_manifest_sha256": "a32016cbf60153d90e7ec1539f1fe9a2a017219868ee4036cf58ab379168fda6",
+  "standalone_rerun_exit_code": 0,
+  "standalone_rerun_stderr": "",
+  "standalone_rerun_elapsed_ns": 436138154,
+  "standalone_rerun_byte_identical": true,
+  "H002_H003_hashes": "PASS",
+  "H001": "no manifest; not modified",
+  "freeze": "all H004 files readonly, directory readonly; never edit, use new sequence for corrections",
+  "limitations": "No new mathematical domain; rerun checks retained evidence only"
+}

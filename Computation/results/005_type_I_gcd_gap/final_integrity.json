@@ -1,0 +1,19 @@
+{
+  "status": "verified computationally",
+  "historical_files_checked": 70,
+  "historical_bytes_unchanged": true,
+  "H005_payload_hashes_checked": 34,
+  "H005_manifest_exit_code": 0,
+  "proof_copy_byte_identical": true,
+  "four_requested_live_records_updated": true,
+  "live_record_links_exist": true,
+  "prior_live_record_versions_retained": true,
+  "H005_manifest_sha256": "480bec85a016d3ad5724580347aa45eebe943ad4adfebab0e854f9ca2fc1865f",
+  "live_record_sha256": {
+    "flagship/main/known_identities.md": "73652cbbfdb05e9a0558760d5ae6984d8bcbf7eb32c05921992d183e1030e983",
+    "flagship/main/open_obligations.md": "78c15f9ecb4c460eae2bca88ac30dad0d4be9e7cdadadb5642ad6534c1763fe5",
+    "flagship/main/research_log.md": "5f5948e4eee58db0d9bd6264fcd11e82f8b6e2dbaefa46cd398c606045527f7d",
+    "flagship/main_research_report.md": "09ab626cc3f834526d096593f292fa70f924c0da4d7dfe2e0cb3599e62def4ea"
+  },
+  "scope": "File integrity and deliverable checks only; no additional mathematical search or proof formalization."
+}

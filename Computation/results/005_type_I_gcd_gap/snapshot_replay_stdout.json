@@ -1,0 +1,201 @@
+{
+  "result": "PASS",
+  "python": "3.12.3",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "source_sha256": "5863aae0c028aad6d340f90fa0520503e2f2403e9a2476cd7a83990681d89e52",
+  "H004_manifest": [
+    {
+      "file": "README.md",
+      "sha256": "959a6a5923c44281bb40b7bd024d9228384c912512e92ef618767581abac23a7"
+    },
+    {
+      "file": "authorized_probe_source.txt",
+      "sha256": "c48fc133a05ebdccd4554880ed91dea8cd7d6aa9133ed8469152c88a0f0f6fca"
+    },
+    {
+      "file": "authorized_probe_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "authorized_probe_stdout.json",
+      "sha256": "a5cc92e9b407ecce8636c7b8301a775a772944d7e688e821a5a44cac27bf19c7"
+    },
+    {
+      "file": "check_retained.py",
+      "sha256": "a8733e80a9d28001ef70c5c808e63b36e8151b651a963c67f093ed9135396dd6"
+    },
+    {
+      "file": "environment.json",
+      "sha256": "244dbd51795904f38730659b0252c93573d4a1a02a075076fa1ee351acb2ab31"
+    },
+    {
+      "file": "proof_audit.md",
+      "sha256": "b655d6bf1fa2aa30086a3be3e1b3e47397b412ad5db20b7bef2b477b55102fb3"
+    },
+    {
+      "file": "retained_check_environment.json",
+      "sha256": "dd7231615c5993195703141609e0b028b5a0630ba823915f27cd03b1aafc9762"
+    },
+    {
+      "file": "retained_check_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "retained_check_stdout.json",
+      "sha256": "95124e2ee479fef77b900f86b9788c7d89722eac947ae55f98aa6bad130514c2"
+    }
+  ],
+  "H002_manifest": [
+    {
+      "file": "README.md",
+      "sha256": "1e418e4f2a1bfada5369b50fefa36eb52a5ff00649e1a6251ffac2170b911439"
+    },
+    {
+      "file": "audit_structure.py",
+      "sha256": "f6e8f1d213835fddead26ed58f6a072e21ec410da9f026625ada15aa7968383b"
+    },
+    {
+      "file": "check_structure_records.py",
+      "sha256": "a06b6970a64a27b24a76dea89d19289aaf4796f75f796ec60ebc9c0b41445bcf"
+    },
+    {
+      "file": "conditional_saturation.md",
+      "sha256": "abbcfbb7a0f4ae6277af7f8e6866b6e7ea6e886771c841f72f85582e4c2a0eec"
+    },
+    {
+      "file": "environment.json",
+      "sha256": "15812a8fd41f193cf32fe580356d960e23af02b4f388ed32df220fd51ed49672"
+    },
+    {
+      "file": "findings.md",
+      "sha256": "ca0db81b357f0c8af927110bd8033c402141fa56a93bdbe5ee2e3f99e6158b27"
+    },
+    {
+      "file": "independent_check.json",
+      "sha256": "4eb971513b4649810d2f63fb5f01f5ae27ffbc1d469120c5086eecd81bd937cd"
+    },
+    {
+      "file": "pairs.jsonl",
+      "sha256": "5eb5717274f4b7f9b4cacbff7cfc17047f431f05eb57fa31a94444423ee93e5d"
+    },
+    {
+      "file": "proof.md",
+      "sha256": "3c8ac61e3df86cba6cecf875e5e82d1d0dfc491d7a58989d643ac1ecdd31f834"
+    },
+    {
+      "file": "summary.json",
+      "sha256": "12c88a34cd4ed6bb1259a2e42492ef0ad87fc5cde5f549f2c15be9741716dc44"
+    },
+    {
+      "file": "switch_comparison.json",
+      "sha256": "42d0700fdbe8f2dc8f6dc164fc3cfa0ae87f4d165d5b1d399559d24862f568c9"
+    },
+    {
+      "file": "switches.jsonl",
+      "sha256": "2a5438c619cc95180942f597295a93078c2d3b7ef9ba5767833d29b41c505246"
+    }
+  ],
+  "H004_retained_checker": {
+    "exit_code": 0,
+    "stderr": "",
+    "elapsed_ns": 244269615,
+    "stdout_byte_identical": true,
+    "stdout": {
+      "result": "PASS",
+      "source_sha256": "a8733e80a9d28001ef70c5c808e63b36e8151b651a963c67f093ed9135396dd6",
+      "domain_n": [
+        193,
+        1009,
+        1129,
+        1201,
+        2521,
+        66529
+      ],
+      "retained_U_certificates_checked": 6,
+      "193_full_A_certificate_checked": true,
+      "193_h_checked": 24,
+      "193_integral_residue_candidates": [
+        [
+          5,
+          4
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          17
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          24,
+          23
+        ]
+      ],
+      "193_U_witnesses": 0,
+      "I008_auxiliary_equality": "false: 756 != 745",
+      "limits": "Saved certificate audit and existing compact 193 proof only. Other inputs no-hit counts are retained provenance, not reenumerated here. No parameter or prime domain extension; universal Jacobi theorem proved on paper."
+    }
+  },
+  "domain": {
+    "saved_pairs": 2991,
+    "saved_primes": 187,
+    "new_search_ranges": [],
+    "sharpness_certificate_only": 433
+  },
+  "counts": {
+    "retained_B_certificates": 955
+  },
+  "first_retained_B_example": {
+    "p": 1129,
+    "triple": [
+      285,
+      2230904,
+      29640
+    ],
+    "G": 19,
+    "q": 11,
+    "normalized": [
+      19,
+      1,
+      15,
+      104,
+      7
+    ],
+    "delta": 559
+  },
+  "sharpness_example": {
+    "p": 433,
+    "G": 29,
+    "triple": [
+      203,
+      232,
+      703192
+    ]
+  },
+  "limits": "Only the first saved B witness per successful pair was checked, not all completions. Universal claims rest on the written proof. No network, new solution search, formalization, or external novelty claim."
+}

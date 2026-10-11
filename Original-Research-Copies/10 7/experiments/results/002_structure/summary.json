@@ -1,0 +1,94 @@
+{
+  "118801_first_offset": 14,
+  "branch_status": {
+    "A_only": 101,
+    "B_only": 198,
+    "both": 757,
+    "neither": 1935
+  },
+  "certificates_checked_compact": 6064,
+  "certificates_checked_factor_pairs": 4285,
+  "cross_shift_candidates": [
+    {
+      "antecedents": 861,
+      "counterexample_count": 510,
+      "id": "C1",
+      "smallest": {
+        "next_t": 13,
+        "p": 1129,
+        "t": 12
+      }
+    },
+    {
+      "antecedents": 534,
+      "counterexample_count": 29,
+      "id": "C2",
+      "smallest": {
+        "next_t": 4,
+        "p": 2521,
+        "t": 2
+      }
+    }
+  ],
+  "factor_pair_disagreements": 0,
+  "first_offset_histogram_186": {
+    "1": 55,
+    "2": 83,
+    "3": 11,
+    "4": 16,
+    "5": 15,
+    "6": 1,
+    "7": 5
+  },
+  "full_failures_with_deficiency": 253,
+  "obstructions": {
+    "bounded_exponent": 411,
+    "quadratic": 1059,
+    "subgroup_other": 465
+  },
+  "pairs": 2991,
+  "prime_defect_A_failures_with_deficiency": 342,
+  "prime_defect_minus_one_in_H": 941,
+  "result": "PASS",
+  "selected_primes": 273,
+  "switched_candidates": 147,
+  "switched_first_g_k": [
+    [
+      20521,
+      2,
+      1
+    ],
+    [
+      31081,
+      3,
+      5
+    ],
+    [
+      39841,
+      2,
+      2
+    ],
+    [
+      51361,
+      2,
+      7
+    ],
+    [
+      58321,
+      2,
+      1
+    ],
+    [
+      66889,
+      2,
+      2
+    ],
+    [
+      88729,
+      2,
+      1
+    ]
+  ],
+  "switched_solved": 7,
+  "x0_failures": 186
+}

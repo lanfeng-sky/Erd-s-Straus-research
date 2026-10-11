@@ -1,0 +1,17 @@
+{
+  "range": [
+    2,
+    100000
+  ],
+  "selected": 273,
+  "successes_checked": 87,
+  "failures_checked": 186,
+  "factor_pair_disagreements": 0,
+  "disagreements": [],
+  "runtime_ns": 264762077,
+  "source_sha256": "f71e68099a406471a26d9d6cc1958d24cf4b69e87d05cd2d9221ceccbaae2dfb",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "os": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "architecture": "aarch64",
+  "result": "PASS"
+}

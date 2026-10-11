@@ -1,0 +1,203 @@
+{
+  "result": "PASS",
+  "python": "3.12.3",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "source_sha256": "a70b86d77f6619df9841354ce61eed886b078487617977d733b5a3b3197afb14",
+  "H005_manifest_count": 34,
+  "H005_manifest": [
+    {
+      "file": "README.md",
+      "sha256": "0153fb767c937da0b84171b2516024653aaceab546d774f233b974efec85c61b"
+    },
+    {
+      "file": "authorized_probe_source.txt",
+      "sha256": "5863aae0c028aad6d340f90fa0520503e2f2403e9a2476cd7a83990681d89e52"
+    },
+    {
+      "file": "authorized_probe_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "authorized_probe_stdout.json",
+      "sha256": "cf5c0fbe5e8b8b59cdc9347e981a1bb5c9a7a863cea3cc7b0be318f0bb0e934c"
+    },
+    {
+      "file": "proof_audit.md",
+      "sha256": "6b94a97c503a94cc22b3702410d35fa08f8440b7ca12810b97565b3cb0b7eaef"
+    },
+    {
+      "file": "replay/handoffs/002_structure/README.md",
+      "sha256": "1e418e4f2a1bfada5369b50fefa36eb52a5ff00649e1a6251ffac2170b911439"
+    },
+    {
+      "file": "replay/handoffs/002_structure/SHA256SUMS",
+      "sha256": "36d41c1137f84aa6354bced0642d0bedac883f838fae0101d74dcd53efff04a0"
+    },
+    {
+      "file": "replay/handoffs/002_structure/audit_structure.py",
+      "sha256": "f6e8f1d213835fddead26ed58f6a072e21ec410da9f026625ada15aa7968383b"
+    },
+    {
+      "file": "replay/handoffs/002_structure/check_structure_records.py",
+      "sha256": "a06b6970a64a27b24a76dea89d19289aaf4796f75f796ec60ebc9c0b41445bcf"
+    },
+    {
+      "file": "replay/handoffs/002_structure/conditional_saturation.md",
+      "sha256": "abbcfbb7a0f4ae6277af7f8e6866b6e7ea6e886771c841f72f85582e4c2a0eec"
+    },
+    {
+      "file": "replay/handoffs/002_structure/environment.json",
+      "sha256": "15812a8fd41f193cf32fe580356d960e23af02b4f388ed32df220fd51ed49672"
+    },
+    {
+      "file": "replay/handoffs/002_structure/findings.md",
+      "sha256": "ca0db81b357f0c8af927110bd8033c402141fa56a93bdbe5ee2e3f99e6158b27"
+    },
+    {
+      "file": "replay/handoffs/002_structure/independent_check.json",
+      "sha256": "4eb971513b4649810d2f63fb5f01f5ae27ffbc1d469120c5086eecd81bd937cd"
+    },
+    {
+      "file": "replay/handoffs/002_structure/pairs.jsonl",
+      "sha256": "5eb5717274f4b7f9b4cacbff7cfc17047f431f05eb57fa31a94444423ee93e5d"
+    },
+    {
+      "file": "replay/handoffs/002_structure/proof.md",
+      "sha256": "3c8ac61e3df86cba6cecf875e5e82d1d0dfc491d7a58989d643ac1ecdd31f834"
+    },
+    {
+      "file": "replay/handoffs/002_structure/summary.json",
+      "sha256": "12c88a34cd4ed6bb1259a2e42492ef0ad87fc5cde5f549f2c15be9741716dc44"
+    },
+    {
+      "file": "replay/handoffs/002_structure/switch_comparison.json",
+      "sha256": "42d0700fdbe8f2dc8f6dc164fc3cfa0ae87f4d165d5b1d399559d24862f568c9"
+    },
+    {
+      "file": "replay/handoffs/002_structure/switches.jsonl",
+      "sha256": "2a5438c619cc95180942f597295a93078c2d3b7ef9ba5767833d29b41c505246"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/README.md",
+      "sha256": "959a6a5923c44281bb40b7bd024d9228384c912512e92ef618767581abac23a7"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/SHA256SUMS",
+      "sha256": "a32016cbf60153d90e7ec1539f1fe9a2a017219868ee4036cf58ab379168fda6"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/authorized_probe_source.txt",
+      "sha256": "c48fc133a05ebdccd4554880ed91dea8cd7d6aa9133ed8469152c88a0f0f6fca"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/authorized_probe_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/authorized_probe_stdout.json",
+      "sha256": "a5cc92e9b407ecce8636c7b8301a775a772944d7e688e821a5a44cac27bf19c7"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/check_retained.py",
+      "sha256": "a8733e80a9d28001ef70c5c808e63b36e8151b651a963c67f093ed9135396dd6"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/environment.json",
+      "sha256": "244dbd51795904f38730659b0252c93573d4a1a02a075076fa1ee351acb2ab31"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/proof_audit.md",
+      "sha256": "b655d6bf1fa2aa30086a3be3e1b3e47397b412ad5db20b7bef2b477b55102fb3"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/retained_check_environment.json",
+      "sha256": "dd7231615c5993195703141609e0b028b5a0630ba823915f27cd03b1aafc9762"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/retained_check_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "replay/handoffs/004_construction_obstruction/retained_check_stdout.json",
+      "sha256": "95124e2ee479fef77b900f86b9788c7d89722eac947ae55f98aa6bad130514c2"
+    },
+    {
+      "file": "replay/reviews/005_gcd_gap_probe.py",
+      "sha256": "5863aae0c028aad6d340f90fa0520503e2f2403e9a2476cd7a83990681d89e52"
+    },
+    {
+      "file": "replay_environment.json",
+      "sha256": "3996286a758c17ed797218942a90cf16b6198f07b1312ce865ff8152b76a21dd"
+    },
+    {
+      "file": "snapshot_replay.json",
+      "sha256": "050cfeb6e61cb52c49470befad13523e2519d06c74f0ce356134a2875c791e18"
+    },
+    {
+      "file": "snapshot_replay_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "snapshot_replay_stdout.json",
+      "sha256": "ff82990f844137c22b46844f70aca07c410468511d46358b127392b550ec18e5"
+    }
+  ],
+  "H005_payloads_unchanged": true,
+  "H005_replay": {
+    "exit_code": 0,
+    "stderr": "",
+    "agrees_except_timing": true,
+    "H004_elapsed_ns": 237692308,
+    "counts": {
+      "retained_B_certificates": 955
+    }
+  },
+  "input": {
+    "path": "handoffs/005_type_I_gcd_gap/replay/handoffs/002_structure/pairs.jsonl",
+    "sha256": "5eb5717274f4b7f9b4cacbff7cfc17047f431f05eb57fa31a94444423ee93e5d",
+    "saved_pairs": 2991,
+    "saved_primes": 187
+  },
+  "counts": {
+    "retained_A_certificates": 858,
+    "residual_A_certificates": 858
+  },
+  "examples": {
+    "first_residual": {
+      "p": 1129,
+      "triple": [
+        285,
+        29354,
+        8365890
+      ],
+      "normalized": [
+        1,
+        1,
+        285,
+        26
+      ],
+      "b": 26
+    },
+    "explicit_m2": {
+      "p": 313,
+      "triple": [
+        90,
+        626,
+        14085
+      ],
+      "G": 1,
+      "bound_both_sides": 630
+    },
+    "explicit_m3": {
+      "p": 1009,
+      "triple": [
+        276,
+        3027,
+        92828
+      ],
+      "G": 1,
+      "bound_both_sides": 3036
+    }
+  },
+  "limits": "First retained A certificates only, not all completions. No new prime interval or parameter sweep. Explicit 313 and 1009 extremizers only. Universal claims depend on the written proof, not this regression. No network or formal verification."
+}

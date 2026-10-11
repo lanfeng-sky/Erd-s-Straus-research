@@ -1,0 +1,53 @@
+{
+  "sequence": "006",
+  "date": "2026-10-05",
+  "assignment": "D-008",
+  "handoff": "flagship/handoffs/006_signed_character_synthesis/",
+  "status": "proved",
+  "method": "Main-model mathematical rederivation; exact algebra, prime-power allocation, gcd arguments, Jacobi reciprocity, and paper integer checks",
+  "audited_sources": ["I-013 sections 3-6", "I-011 sections 2-5", "I-012 theorem proof"],
+  "claims": {
+    "signed_clean_type_characters": "proved",
+    "same_status_reduced_pair_character": "proved",
+    "rational_square_ratio_obstruction_at_n_1_mod_4": "proved",
+    "T_006_Type_II_envelopes_and_equalities": "proved",
+    "T_007_quotient_character_gcd_ceilings_and_equalities": "proved",
+    "flagship_review_of_H_006": "unresolved",
+    "external_priority": "unresolved",
+    "combined_note_significance": "plausible",
+    "pointwise_forcing": "blocked",
+    "Erdos_Straus": "unresolved"
+  },
+  "paper_checks": {
+    "clean_boundary_c_n": [[2,5],[1,3],[1,15],[1,93]],
+    "nonclean_square_n": 9,
+    "previously_specified_Type_II_equality_primes": [313,1009,97,4201],
+    "arithmetic": "Exact integer and rational identities, not floating point",
+    "execution": false,
+    "universal_proof_dependency_on_examples": false
+  },
+  "execution": {
+    "new_interpreter_or_terminal_job": false,
+    "new_bounded_search": false,
+    "historical_regression_replayed": false,
+    "new_verified_computationally_claim": false,
+    "prior_stalled_parser_process_state": "unresolved",
+    "runtime_measured": false,
+    "machine_version_measured": false,
+    "payload_hash_validation_claim": false,
+    "network_used": false,
+    "Lean_used": false,
+    "installation_performed": false,
+    "fresh_independent_agent_claim": false
+  },
+  "limitations": [
+    "Composite clean types do not exhaust unrestricted solutions",
+    "Rational-square obstruction only asserted for n=1 mod 4",
+    "Global Jacobi sign does not mean negative Legendre sign at every prime factor",
+    "Type-specific necessary conditions do not imply existence",
+    "Equality classifications concern unfloored inequalities",
+    "Prime equality families do not assert infinitely many primes",
+    "No fresh source-level originality certification"
+  ],
+  "minimal_follow_up": "Flagship paper review of the self-contained H-006 package in a new numbered review file"
+}

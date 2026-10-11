@@ -1,0 +1,55 @@
+{
+  "sequence": "R-003",
+  "date": "2026-10-04",
+  "status": "verified computationally",
+  "h002_generator": {
+    "result": "PASS", "exit_code": 0, "check_mode": true,
+    "pairs": 2991, "runtime_ns": 1544425307,
+    "source_sha256": "f6e8f1d213835fddead26ed58f6a072e21ec410da9f026625ada15aa7968383b",
+    "branch_status": {"both": 757, "A_only": 101, "B_only": 198, "neither": 1935},
+    "factor_pair_disagreements": 0,
+    "certificates_checked_compact": 6064,
+    "certificates_checked_factor_pairs": 4285,
+    "switched_candidates": 147, "switched_solved": 7
+  },
+  "h002_direct_checker": {
+    "result": "PASS", "exit_code": 0, "pairs": 2991,
+    "saved_branch_certificates_checked": 1813,
+    "switch_candidates_directly_scanned": 147,
+    "runtime_ns": 2427108923,
+    "source_sha256": "a06b6970a64a27b24a76dea89d19289aaf4796f75f796ec60ebc9c0b41445bcf"
+  },
+  "flagship_joint_probe": {
+    "result": "PASS", "exit_code": 0,
+    "sha256_manifest": "all entries verified",
+    "source_sha256": "c2ba91d276a206bba088347d57373717d81707f189fb3453c4a5d18af3f0ebcb",
+    "pairs": 2991,
+    "counts": {
+      "common_character_blocker": 1485,
+      "common_blocker_old_quadratic": 1022,
+      "common_blocker_old_subgroup_other": 463,
+      "binary_bounds_checked": 5982,
+      "prime_defect_joint_domain": 941,
+      "joint_failures_with_deficiency": 253,
+      "joint_saturation_pass": 106,
+      "joint_pass_beyond_old_sufficient": 33,
+      "critical_equalities": 14
+    },
+    "least_nonresidue_118801": {
+      "q": 13, "first_multiple_offset": 4,
+      "all_t_0_through_q_minus_1_miss": true
+    },
+    "inverse_candidate": {
+      "status": "verified computationally",
+      "visited": 175036, "eligible": 84,
+      "domain_m": [3,5,7,9], "length": "m-2", "even_total": true
+    }
+  },
+  "environment": {
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+    "arithmetic": "exact Python integers", "optimized_assertions": false,
+    "network_used": false, "formal_proof_build": false
+  },
+  "limitations": "No prime or offset existence range extension. New abstract test restricted to four groups. Review and probe by flagship model, not a proof assistant or fresh sub-agent. Timings belong to the observed rerun."
+}

@@ -1,0 +1,28 @@
+{
+  "status": "verified computationally",
+  "n_range_inclusive": [
+    2,
+    100000
+  ],
+  "residues_mod_840": [
+    1,
+    121,
+    169,
+    289,
+    361,
+    529
+  ],
+  "all_primes_in_range": 9592,
+  "selected": 273,
+  "successes": 87,
+  "no_completion_at_x0": 186,
+  "runtime_ns": 50676385,
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "os": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "architecture": "aarch64",
+  "source_sha256": {
+    "classify_x0.py": "5756c0f6c23d7b83e348c0f9ab9acc90282d8a5eb9eaf61935a26bbb5875d836",
+    "verify_representation.py": "d122d6f354b025d54569bd721db9aca67d1a1fb79ef0536beac37b137118a2ab"
+  },
+  "limits": "Only x=(p+3)//4; no other x; no conjecture counterexample claim."
+}

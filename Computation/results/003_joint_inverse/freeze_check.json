@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "handoff": "flagship/handoffs/003_joint_inverse",
+  "payload_files": 8,
+  "standalone_exit_code": 0,
+  "standalone_runtime_ns": 9146729847,
+  "stdout_matches_saved_bytes": true,
+  "H002_manifest": "all entries PASS",
+  "H001_manifest": "not available; legacy H-001 has no manifest, no files written there",
+  "sha256_manifest": "13ac2be1ae184483e5e25ed98fa1cb1e30a837e28b9cd723a163af4e2b656f27",
+  "freeze_attempt_note": "Initial wrapper completed H003 copy, test and manifest, then failed trying nonexistent H001/SHA256SUMS; this rerun completed verification without changing H003."
+}

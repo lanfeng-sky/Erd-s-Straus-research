@@ -1,0 +1,19 @@
+{
+  "status": "verified computationally",
+  "command": [
+    "/usr/bin/python3",
+    "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/flagship/handoffs/005_type_I_gcd_gap/replay/reviews/005_gcd_gap_probe.py"
+  ],
+  "cwd": "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/flagship/handoffs/005_type_I_gcd_gap",
+  "exit_code": 0,
+  "elapsed_ns": 639550539,
+  "stderr_bytes": 0,
+  "source_identical_to_authorized_probe": true,
+  "matches_original_except_timing": true,
+  "domain_expanded": false,
+  "payloads_required_outside_H005": false,
+  "counts": {
+    "retained_B_certificates": 955
+  },
+  "original_H002_H004_manifests_pass": true
+}

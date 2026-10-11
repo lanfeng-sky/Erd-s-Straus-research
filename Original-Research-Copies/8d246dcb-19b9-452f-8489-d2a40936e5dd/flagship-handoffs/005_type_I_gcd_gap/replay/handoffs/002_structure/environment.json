@@ -1,0 +1,14 @@
+{
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "architecture": "aarch64",
+  "runtime_ns": 5552022847,
+  "source_sha256": "f6e8f1d213835fddead26ed58f6a072e21ec410da9f026625ada15aa7968383b",
+  "artifact_sha256": {
+    "pairs.jsonl": "5eb5717274f4b7f9b4cacbff7cfc17047f431f05eb57fa31a94444423ee93e5d",
+    "switches.jsonl": "2a5438c619cc95180942f597295a93078c2d3b7ef9ba5767833d29b41c505246",
+    "switch_comparison.json": "42d0700fdbe8f2dc8f6dc164fc3cfa0ae87f4d165d5b1d399559d24862f568c9",
+    "summary.json": "12c88a34cd4ed6bb1259a2e42492ef0ad87fc5cde5f549f2c15be9741716dc44"
+  },
+  "check_mode": false
+}

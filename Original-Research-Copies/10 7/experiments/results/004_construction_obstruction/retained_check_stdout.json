@@ -1,0 +1,60 @@
+{
+  "result": "PASS",
+  "source_sha256": "a8733e80a9d28001ef70c5c808e63b36e8151b651a963c67f093ed9135396dd6",
+  "domain_n": [
+    193,
+    1009,
+    1129,
+    1201,
+    2521,
+    66529
+  ],
+  "retained_U_certificates_checked": 6,
+  "193_full_A_certificate_checked": true,
+  "193_h_checked": 24,
+  "193_integral_residue_candidates": [
+    [
+      5,
+      4
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      18,
+      5
+    ],
+    [
+      19,
+      8
+    ],
+    [
+      20,
+      11
+    ],
+    [
+      21,
+      14
+    ],
+    [
+      22,
+      17
+    ],
+    [
+      23,
+      20
+    ],
+    [
+      24,
+      23
+    ]
+  ],
+  "193_U_witnesses": 0,
+  "I008_auxiliary_equality": "false: 756 != 745",
+  "limits": "Saved certificate audit and existing compact 193 proof only. Other inputs no-hit counts are retained provenance, not reenumerated here. No parameter or prime domain extension; universal Jacobi theorem proved on paper."
+}

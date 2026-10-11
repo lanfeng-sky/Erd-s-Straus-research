@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "pairs": 2991,
+  "saved_branch_certificates_checked": 1813,
+  "switch_candidates_directly_scanned": 147,
+  "branch_status": {
+    "neither": 1935,
+    "both": 757,
+    "B_only": 198,
+    "A_only": 101
+  },
+  "obstructions": {
+    "quadratic": 1059,
+    "bounded_exponent": 411,
+    "subgroup_other": 465
+  },
+  "runtime_ns": 14297017155,
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "architecture": "aarch64",
+  "source_sha256": "a06b6970a64a27b24a76dea89d19289aaf4796f75f796ec60ebc9c0b41445bcf"
+}

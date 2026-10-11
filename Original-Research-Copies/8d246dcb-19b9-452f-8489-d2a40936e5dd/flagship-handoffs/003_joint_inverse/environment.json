@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-10-04T01:52:30Z",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "machine": "aarch64",
+  "workspace_execution": "Mounted paths executed directly; no copy before execution",
+  "runs": [
+    {
+      "script": "flagship/reviews/003_joint_probe.py",
+      "source_sha256": "c2ba91d276a206bba088347d57373717d81707f189fb3453c4a5d18af3f0ebcb",
+      "output": "flagship_probe_output.json",
+      "exit_code": 0,
+      "runtime_ns": 738844000,
+      "stderr": "",
+      "optimization": false
+    },
+    {
+      "script": "experiments/scripts/check_joint_inverse.py",
+      "source_sha256": "188b2af154904ebb513c7b01fbaf650a7d0f407c8d7e156f67794f1f99308c76",
+      "output": "independent_check.json",
+      "exit_code": 0,
+      "runtime_ns": 9145259308,
+      "stderr": "",
+      "optimization": false
+    }
+  ]
+}

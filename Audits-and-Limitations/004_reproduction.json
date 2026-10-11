@@ -1,0 +1,150 @@
+{
+  "result": "PASS",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "source_sha256": "c48fc133a05ebdccd4554880ed91dea8cd7d6aa9133ed8469152c88a0f0f6fca",
+  "H003_payload_hashes": {
+    "README.md": "07c17ed61a02adb96aec164867139239b810c4aa9ababd0c569ed23572fed29d",
+    "arithmetic_specialization.md": "291dd4acff4c9bcab1095ec7ef46af4d603f2ceeda719d1daabeaf52f650a525",
+    "check_joint_inverse.py": "188b2af154904ebb513c7b01fbaf650a7d0f407c8d7e156f67794f1f99308c76",
+    "environment.json": "935cd3d1913434e4a127b86763c450565ffb7854630fe0f7ca8b0285e5fdb2ea",
+    "flagship_probe_output.json": "56be3dc58b3b9c2a11b27002b851b0499940cfcc55f846af39b7d6345d43d8d0",
+    "independent_check.json": "cd450fc2c206f68a24ee5443d7025f5a48f572e4fe25eb9d1b33a02fabd3867d",
+    "prerequisite_audit.md": "2e57335c5dcd883d67950fe0e0aba1bb52d0dcb2d2122e03dc37189498225eb0",
+    "proof.md": "ab22c175c8f64dc3e9dc0f4b55c53030f68a00a96a990967f85f37cf95a7d34e"
+  },
+  "reproduction": [
+    {
+      "script": "handoffs/003_joint_inverse/check_joint_inverse.py",
+      "source_sha256": "188b2af154904ebb513c7b01fbaf650a7d0f407c8d7e156f67794f1f99308c76",
+      "saved_stdout": "handoffs/003_joint_inverse/independent_check.json",
+      "exit_code": 0,
+      "byte_identical": true,
+      "stdout_sha256": "cd450fc2c206f68a24ee5443d7025f5a48f572e4fe25eb9d1b33a02fabd3867d",
+      "elapsed_ns": 9247172308,
+      "stderr": ""
+    },
+    {
+      "script": "reviews/003_joint_probe.py",
+      "source_sha256": "c2ba91d276a206bba088347d57373717d81707f189fb3453c4a5d18af3f0ebcb",
+      "saved_stdout": "handoffs/003_joint_inverse/flagship_probe_output.json",
+      "exit_code": 0,
+      "byte_identical": true,
+      "stdout_sha256": "56be3dc58b3b9c2a11b27002b851b0499940cfcc55f846af39b7d6345d43d8d0",
+      "elapsed_ns": 693454769,
+      "stderr": ""
+    }
+  ],
+  "U007_exact_domain": [
+    {
+      "n": 193,
+      "prime_by_trial_division": true,
+      "ck_candidates": 60,
+      "M_candidates": 24,
+      "witnesses": []
+    },
+    {
+      "n": 1009,
+      "prime_by_trial_division": true,
+      "ck_candidates": 450,
+      "M_candidates": 126,
+      "witnesses": [
+        {
+          "a": 3,
+          "c": 11,
+          "k": 8,
+          "triple": [
+            253,
+            88792,
+            2042216
+          ]
+        },
+        {
+          "a": 3,
+          "c": 23,
+          "k": 4,
+          "triple": [
+            253,
+            92828,
+            1021108
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1129,
+      "prime_by_trial_division": true,
+      "ck_candidates": 513,
+      "M_candidates": 141,
+      "witnesses": [
+        {
+          "a": 11,
+          "c": 1,
+          "k": 26,
+          "triple": [
+            285,
+            29354,
+            8365890
+          ]
+        },
+        {
+          "a": 103,
+          "c": 1,
+          "k": 3,
+          "triple": [
+            308,
+            3387,
+            1043196
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1201,
+      "prime_by_trial_division": true,
+      "ck_candidates": 553,
+      "M_candidates": 150,
+      "witnesses": [
+        {
+          "a": 31,
+          "c": 2,
+          "k": 5,
+          "triple": [
+            308,
+            12010,
+            1849540
+          ]
+        },
+        {
+          "a": 39,
+          "c": 2,
+          "k": 4,
+          "triple": [
+            310,
+            9608,
+            1489240
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2521,
+      "prime_by_trial_division": true,
+      "ck_candidates": 1314,
+      "M_candidates": 315,
+      "witnesses": []
+    },
+    {
+      "n": 66529,
+      "prime_by_trial_division": true,
+      "ck_candidates": 52762,
+      "M_candidates": 8316,
+      "witnesses": []
+    }
+  ],
+  "193_full_A_certificate": [
+    50,
+    1930,
+    4825
+  ],
+  "limitations": "H-003 has four abstract test groups only. U-007 audit covers the exact normalized family on six named values only, not every screenshot formula. No square scan; the square obstruction is proved on paper. No universal existence or literature-novelty claim."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "verified computationally",
+  "execution": "authorized unchanged D-005 probe only",
+  "command": [
+    "/usr/bin/python3",
+    "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/flagship/reviews/005_gcd_gap_probe.py"
+  ],
+  "cwd": "/data/user/0/com.ai.assistance.operit/files/workspace/8d246dcb-19b9-452f-8489-d2a40936e5dd/flagship",
+  "environment": "android mounted directly in Ubuntu Linux",
+  "python": "3.12.3",
+  "platform": "Linux-6.1.138-android14-11-g51f8c580613d-ab13911623-aarch64-with-glibc2.39",
+  "machine": "aarch64",
+  "assertions_enabled": true,
+  "exit_code": 0,
+  "elapsed_ns": 686793231,
+  "stderr_bytes": 0,
+  "source_sha256": "5863aae0c028aad6d340f90fa0520503e2f2403e9a2476cd7a83990681d89e52",
+  "stdout_sha256": "cf5c0fbe5e8b8b59cdc9347e981a1bb5c9a7a863cea3cc7b0be318f0bb0e934c",
+  "matches_R005_except_timing": true,
+  "protected_historical_files": 70,
+  "historical_bytes_unchanged": true,
+  "domain": {
+    "saved_pairs": 2991,
+    "saved_primes": 187,
+    "new_search_ranges": [],
+    "sharpness_certificate_only": 433
+  },
+  "counts": {
+    "retained_B_certificates": 955
+  },
+  "limits": "955 first saved B witnesses, not all Type-I completions; no new search. One explicit 433 equality certificate. Universal theorem rests on written proof, not this replay."
+}
